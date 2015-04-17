@@ -6,6 +6,6 @@ Note-worthy Java features not supported:
 2. Inheritance
 3. Interfaces
 
-This compiler will accept an input file ending in .java, run it through syntactical analysis, semantic analysis, contextual analysis, and generate code for the mJAM virtual machine included in this project.
+This compiler will accept an input file ending in .java, run it through syntactical analysis, semantic analysis, contextual analysis. Generated code is outputted in an abstracted manner and not intended to be executed on the JVM.
 
 This compiler is a multi-pass LALR(1) compiler.
